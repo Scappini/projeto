@@ -1,6 +1,7 @@
 create table PAIS(
   CODIGO integer not null,
   NOME varchar(50) not null,
+  DDI integer not null,
   constraint PK_PAIS primary key (CODIGO)
 );
 
